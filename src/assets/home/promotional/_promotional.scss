@@ -1,0 +1,128 @@
+.promotional {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 30px;
+
+  @include tablet {
+    gap: 50px 0;
+  }
+
+  @include lg-phone {
+    gap: 50px 0;
+  }
+
+  @include m-phone {
+    gap: 50px 0;
+  }
+
+  @include sm-phone {
+    gap: 50px 0;
+  }
+
+  .copy-container {
+    flex-grow: 1;
+    flex-basis: 440px;
+    padding: 0 50px 0 0;
+    gap: 20px;
+
+    @include tablet {
+      padding: 0;
+    }
+
+    @include lg-phone {
+      padding: 0;
+    }
+
+    @include m-phone {
+      padding: 0;
+    }
+
+    @include sm-phone {
+      padding: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .book-now-btn {
+      position: relative;
+      width: 200px;
+      align-self: center;
+      cursor: pointer;
+      user-select: none;
+      transition: 0.2s all;
+
+      @include tablet {
+        align-self: flex-start;
+        margin-left: -10px;
+      }
+
+      @include lg-phone {
+        align-self: flex-start;
+        margin-left: -10px;
+      }
+
+      @include m-phone {
+        align-self: flex-start;
+        margin-left: -10px;
+      }
+
+      @include sm-phone {
+        align-self: flex-start;
+        margin-left: -10px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 10px);
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        text-align: center;
+        line-height: 24px;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .image-container {
+    flex-grow: 1;
+    flex-basis: 440px;
+    padding: 0 0 0 50px;
+
+    @include tablet {
+      padding: 0;
+    }
+
+    @include lg-phone {
+      padding: 0;
+    }
+
+    @include m-phone {
+      padding: 0;
+    }
+
+    @include sm-phone {
+      padding: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

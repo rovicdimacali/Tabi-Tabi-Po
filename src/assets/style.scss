@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kreon:wght@300..700&display=swap");
+@import "./breakpoints/breakpoints";
+@import "./variables/variables";
+@import "./constants/constants";
+@import "./layouts/layouts";
+
+@import "./home/home";
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://cdn.tabitabipo.fun/tatabipo-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: "Caveat", sans-serif;
+}

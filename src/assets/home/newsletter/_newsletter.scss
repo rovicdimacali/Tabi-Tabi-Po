@@ -1,0 +1,31 @@
+.newsletter {
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0 30px;
+  flex-wrap: wrap-reverse;
+
+  .image-container {
+    max-width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .form {
+    max-width: 400px;
+    font-family: "Kreon", sans-serif;
+    justify-content: center;
+
+    h1 {
+      margin: 0;
+      font-family: "Caveat", sans-serif;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}

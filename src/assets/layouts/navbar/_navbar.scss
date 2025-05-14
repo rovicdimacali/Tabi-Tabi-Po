@@ -1,0 +1,97 @@
+.navbar {
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background: #51321e;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+    &.link {
+      &:hover {
+        text-decoration: underline;
+      }
+
+      @include tablet {
+        display: none;
+      }
+
+      @include lg-phone {
+        display: none;
+      }
+
+      @include m-phone {
+        display: none;
+      }
+
+      @include sm-phone {
+        display: none;
+      }
+    }
+  }
+
+  .logo {
+    height: 80px;
+    display: block !important;
+  }
+
+  .burger-menu {
+    display: none;
+    width: 50px;
+    position: absolute;
+    right: 50px;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+    @include tablet {
+      display: block;
+    }
+    @include m-phone {
+      display: block;
+    }
+
+    @include m-phone {
+      display: block;
+      right: 30px;
+    }
+
+    @include sm-phone {
+      display: block;
+      right: 30px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.drawer {
+  background: #51321e !important;
+
+  .p-drawer-title {
+    font-size: 30px;
+  }
+
+  .drawer-links {
+    padding: 30px 20px;
+    gap: 30px;
+
+    a {
+      font-size: 20px;
+      font-family: "Kreon", sans-serif;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

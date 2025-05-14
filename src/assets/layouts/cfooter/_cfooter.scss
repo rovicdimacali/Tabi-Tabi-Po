@@ -1,0 +1,54 @@
+.footer {
+  justify-content: center;
+  gap: 100px 200px;
+  padding: 50px 30px;
+
+  .logo-copyright {
+    img {
+      width: 200px;
+    }
+
+    p {
+      font-family: "Kreon", sans-serif;
+    }
+  }
+
+  .links {
+    gap: 100px;
+    align-items: center;
+
+    @include m-phone {
+      gap: 50px;
+    }
+
+    @include sm-phone {
+      gap: 50px;
+    }
+
+    .link-col {
+      gap: 30px;
+
+      a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: "Kreon", sans-serif;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .socials {
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin: 0;
+      font-weight: 900;
+      font-size: 40px;
+    }
+  }
+}

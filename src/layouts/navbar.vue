@@ -2,13 +2,13 @@
   <nav class="navbar row">
     <a class="link" href="#home"> Home </a>
     <a class="link" href="#gameplay"> Gameplay </a>
-    <router-link>
+    <a href="https://tabitabipo.fun">
       <img
         src="https://cdn.tabitabipo.fun/tabitabipo-logo.png"
         alt="Tabi Tabi Po Collapsible Board Game Logo"
         class="logo"
       />
-    </router-link>
+    </a>
     <a class="link" href="#testimonials"> Testimonials </a>
     <a class="link" href="#book-now"> Book Now </a>
     <div class="burger-menu" @click="isSidebarVisible = true">

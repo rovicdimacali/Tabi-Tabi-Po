@@ -4,7 +4,7 @@
     <a class="link" href="#gameplay"> Gameplay </a>
     <a href="https://tabitabipo.fun">
       <img
-        src="https://cdn.tabitabipo.fun/tabitabipo-logo.png"
+        src="https://cdn.tabitabipo.fun/logo.png"
         alt="Tabi Tabi Po Collapsible Board Game Logo"
         class="logo"
       />

@@ -11,8 +11,8 @@
   a {
     color: white;
     font-size: 20px;
+    font-family: "Arial", sans-serif;
     text-decoration: none;
-    font-weight: bold;
 
     &.link {
       &:hover {
@@ -89,7 +89,8 @@
 
     a {
       font-size: 20px;
-      font-family: "Kreon", sans-serif;
+      font-family: "Arial";
+      font-weight: normal;
       color: white;
       text-decoration: none;
     }

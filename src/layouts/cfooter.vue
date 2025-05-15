@@ -3,7 +3,7 @@
     <div class="footer wrap">
       <div class="logo-copyright col">
         <img
-          src="https://cdn.tabitabipo.fun/tabitabipo-logo.png"
+          src="https://cdn.tabitabipo.fun/logo.png"
           alt="Tabi Tabi Po Collapsible Board Game Logo"
           class="logo"
         />

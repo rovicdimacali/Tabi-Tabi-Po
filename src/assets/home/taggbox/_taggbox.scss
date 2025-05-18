@@ -1,0 +1,19 @@
+.taggbox-section {
+  max-width: 1200px;
+  margin: 50px auto 100px auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  .taggbox-container {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+  }
+}

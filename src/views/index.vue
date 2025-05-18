@@ -5,6 +5,7 @@
   <tutorial />
   <testimonials />
   <typeform />
+  <taggbox />
   <newsletter />
   <cfooter />
   <ScrollTop />
@@ -19,6 +20,7 @@ import testimonials from "@/components/home/testimonials.vue";
 import typeform from "@/components/home/typeform.vue";
 import Cfooter from "@/layouts/cfooter.vue";
 import newsletter from "@/components/home/newsletter.vue";
+import taggbox from "@/components/home/taggbox.vue";
 export default {
   components: {
     navbar,
@@ -29,6 +31,7 @@ export default {
     typeform,
     Cfooter,
     newsletter,
+    taggbox,
   },
 };
 </script>
